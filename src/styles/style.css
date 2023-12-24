@@ -25,6 +25,10 @@ body {
   z-index: 3;
 }
 
+.intro-container * {
+  will-change: transform;
+}
+
 .intro {
   position: absolute;
   color: darkcyan;
