@@ -44,6 +44,10 @@ body {
   z-index: 1000;
 }
 
+.intro h3 {
+  max-width: 90vw;
+}
+
 .logo {
   position: absolute;
   width: 100vw;
@@ -383,9 +387,14 @@ body {
 
 .soldiers2 {
   position: absolute;
-  width: 30vw;
   bottom: -5vh;
   right: 50%;
+  height: 40vh;
+}
+
+.soldiers2 :is(svg, img) {
+  height: 100%;
+  position: relative;
 }
 
 #confeti {
@@ -395,4 +404,10 @@ body {
   top: 0;
   left: 0;
   z-index: 500;
+}
+
+.description1,
+.description2,
+.description3 {
+  max-width: 90vw;
 }
